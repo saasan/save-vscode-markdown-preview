@@ -27,9 +27,11 @@ Markdown エンジンの違いにより VSCode と出力結果が異なる
 1.  `npm install` する
 1.  同じフォルダにHTML化したい Markdown ファイルを入れる
 1.  フォルダを Visual Studio Code で開く
+1.  gulpfile.js を編集し、HTML のタイトルなどを設定する
 1.  `Ctrl + Shift + B` を押してビルドする
 1.  ビルドが終わるとできる dest フォルダに markdown.css を入れる
 
     ※ markdown.css は
-    "Microsoft VS Codeをインストールしたフォルダ\resources\app\extensions\markdown\media\markdown.css"
+    VS Codeをインストールしたフォルダの
+    resources\app\extensions\markdown\media\markdown.css
     にあります。
